@@ -6,7 +6,7 @@
     <groupId>org.bigtheta</groupId>
     <artifactId>jersey.rest</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>jersey-rest</name>
     <description></description>
