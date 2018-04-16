@@ -1,9 +1,14 @@
 language: java
+
 jdk: oraclejdk8
+
 install: true
+
 before_script:
- - echo "Starting build"
+  - echo "Starting build"
+
 script:
- - mvn clean package
+  - mvn clean package
+
 after-success:
- - mvn deploy
+  - mvn deploy
