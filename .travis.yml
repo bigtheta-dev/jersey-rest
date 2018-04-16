@@ -10,5 +10,5 @@ before_script:
 script:
   - mvn clean package
 
-after-success:
+after_success:
   - mvn deploy
