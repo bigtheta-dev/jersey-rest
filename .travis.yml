@@ -6,11 +6,4 @@ before_script:
 script:
  - mvn clean package
 deploy:
- -
-   on:
-     branch: release
-   provider: bintray
-   skip_cleanup: true
-   file: target/bin/bintray.json
-   user: bigtheta-dev
-   key: $BINTRAY_API_KEY
+ - mvn deploy
